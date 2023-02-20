@@ -1,0 +1,27 @@
+{
+    "settings": {
+        "Threads": 5,
+        "Create_Username": "y",
+	"Create_PFP": "y",
+        "Use_Proxy": "n",
+        "Change_Avatar": "y",
+        "Debug_Mode": "if you are not developer, do not touch this value!! (if you're going to change you can just do 'y')"
+    },
+
+    "follow_ids": {
+        "Account_IDs": ["ACCOUNT ID1","ACCOUNT ID2"],
+        "Playlist_IDs": ["PLAYLIST ID1","PLAYLIST ID2"],
+        "Artist_IDs": ["ARTIST ID1","ARTIST ID2"]
+    },
+
+    "follow_types": {
+        "Profile": "y",
+        "Playlist": "y",
+        "Artist": "y"
+    },
+
+    "save_methods": {
+        "SQLite": "n",
+        "Text_File": "y"
+    }
+}
